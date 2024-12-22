@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container .logo img {
+  width: 200px;
+}
+
+.nav .nav-list {
+  display: flex;
+  list-style-type: none;
+  gap: 49px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  font-family: "Space Grotesk", sans-serif;
+  padding-bottom: 10px;
+  line-height: 28px;
+}
+
+.header__container .button {
+  padding: 19px 60px;
+  background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  letter-spacing: -0.53px;
+  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+}
+
+.header__container .button:hover {
+  background-color: rgb(162, 162, 162);
+}
+
+.hero {
+  margin-top: 81px;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info {
+  width: 531px;
+}
+.hero-info .hero-title {
+  font-family: "Space Grotesk", sans-serif;
+  color: #000000;
+  font-size: 60px;
+  line-height: 76.56px;
+  margin-bottom: 35px;
+}
+
+.hero-info .hero-desk {
+  color: #696871;
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+.hero-buttons .start-btn {
+  border: none;
+  padding: 20px 35px;
+  background-color: #191a23;
+  border-radius: 14px;
+  cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 17px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.hero-buttons .start-btn:hover {
+  background-color: #3e3c3c;
+}
+
+.logos {
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.logos__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards {
+  max-width: 1140px;
+  width: 100%;
+}
+
+.cards_container .cards-title {
+  gap: 40px;
+  margin-top: 140px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: left;
+  gap: 40px;
+}
+
+.cards_container .cards-title h2 {
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.cards_container .cards-title p {
+  width: 550px;
+  font-size: 18px;
+}
+
+.cards-info {
+  width: 600px;
+  background-color: aqua;
+  border-radius: 45px;
+  border: 1px;
+}
